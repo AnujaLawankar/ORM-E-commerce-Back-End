@@ -91,6 +91,7 @@ router.put('/:id', (req, res) => {
       // get list of current tag_ids
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       // create filtered list of new tag_ids
+
       const newProductTags = req.body.tagIds
         .filter((tag_id) => !productTagIds.includes(tag_id))
         .map((tag_id) => {
@@ -99,6 +100,7 @@ router.put('/:id', (req, res) => {
             tag_id,
           };
         });
+
       // figure out which ones to remove
       const productTagsToRemove = productTags
         .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
@@ -110,9 +112,17 @@ router.put('/:id', (req, res) => {
         ProductTag.bulkCreate(newProductTags),
       ]);
     })
-    .then((updatedProductTags) => res.json(updatedProductTags))
+    .then((updatedProductTags) => {
+      // Find the updated product by ID and return it in the response
+      return Product.findByPk(req.params.id, {
+        include: [{ model: Tag, through: ProductTag, as: 'tags' }]
+      });
+    })
+    .then((updatedProduct) => {
+      res.status(200).json(updatedProduct);
+    })
     .catch((err) => {
-      // console.log(err);
+      console.log(err);
       res.status(400).json(err);
     });
 });
