@@ -1,18 +1,14 @@
 # ORM-E-commerce-Back-End
 
-## Work Day Scheduler
-
-
-
 ## Description
 
-1. ORM-E-commerce-Back-End is an e-commerce website that keep track on Categories, Porducts and Tag.
+1. ORM-E-commerce-Back-End is an e-commerce website that keep track on Categories, Products and Tag.
 
-2. Checking the REST api for routes of Categories, Porducts and Tag through Insomnia.
+2. Checking the REST api for routes of Categories, Products and Tag through Insomnia.
 
 3. Database is created by schema and seed commands.
 
-4. While checking REST api the data return is in JSON formatte.
+4. While checking REST api the data return is in JSON format.
 
 5. When user test API for POST, PUT, DELETE routes in Insomnia. Then he is successfully create, update and delete data in database.
 
@@ -56,20 +52,16 @@
 
 
 ## URLs:-
-Here, you can find the webpage.
+Here, you can find the walkthrough video.
 
-
-
-
+https://drive.google.com/file/d/1zPguMJoUpx7zqA5kplLVKQysrMkFdhXE/view
 
 
 
 Here, you can find the GitHub URL:-
 GitHub URL:- 
 
-
-
-
+https://github.com/AnujaLawankar/ORM-E-commerce-Back-End
 
 
 ## Installation
@@ -98,43 +90,47 @@ GitHub URL:-
 
 
 The following images demonstrates working in insomnia.
-1. Get request for Products.
+1. GET request for Products.
 ![Website](./assets/images/Screenshot1.png)
 
-2. Get by id request for Products. 
+2. GET by id request for Products. 
 ![Website](./assets/images/Screenshot5_product_id.png)
 
-3. Post command for Products.
+3. POST command for Products.
 ![Website](./assets/images/Screenshot10_product_post.png)
 
-4. Delete command for Products.
+4. PUT command for Products.
+![Website](./assets/images/Screenshot15_product_put.png)
+
+5. DELETE command for Products.
 ![Website](./assets/images/Screenshot11_product_delete.png)
 
-5. Get command for Categories.
+6. GET command for Categories.
 ![Website](./assets/images/Screenshot2.png)
 
-6. Get by id command for Categories.
+7. GET by id command for Categories.
 ![Website](./assets/images/Screenshot6_category_id.png)
 
-7. Post command for Categories.
+8. POST command for Categories.
 ![Website](./assets/images/Screenshot7_category_post.png)
 
-8. Put command for Categories.
+9. PUT command for Categories.
 ![Website](./assets/images/Screenshot8_category_put.png)
 
-9. Delete command for Categories.
+10. DELETE command for Categories.
 ![Website](./assets/images/Screenshot9_category_delete.png)
 
-10. Get command for Tags.
+11. GET command for Tags.
 ![Website](./assets/images/Screenshot3.png)
 
-11. Get by id command for Tags.
+12. GET by id command for Tags.
 ![Website](./assets/images/Screenshot4_tag_id.png)
 
-12. Post command for Tags.
+13. POST command for Tags.
 ![Website](./assets/images/Screenshot12_tag_post.png)
 
-13. Delete command for Tags.
+14. DELETE command for Tags.
 ![Website](./assets/images/Screenshot13_tag_delete.png)
 
-
+15. PUT command for Tags.
+![Website](./assets/images/Screenshot14_tags_put.png)
