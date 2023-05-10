@@ -57,7 +57,6 @@ Here, you can find the walkthrough video.
 https://drive.google.com/file/d/1zPguMJoUpx7zqA5kplLVKQysrMkFdhXE/view
 
 
-
 Here, you can find the GitHub URL:-
 GitHub URL:- 
 
