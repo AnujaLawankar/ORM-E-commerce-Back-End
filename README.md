@@ -54,7 +54,7 @@
 ## URLs:-
 Here, you can find the walkthrough video.
 
-https://watch.screencastify.com/v/v9xrUmcXferZrwDbku3b
+https://drive.google.com/file/d/1EaFc2zHMMKwuZTjQRHtzUaC2i9V0kbUo/view
 
 
 Here, you can find the GitHub URL:-
@@ -90,19 +90,19 @@ https://github.com/AnujaLawankar/ORM-E-commerce-Back-End
 
 The following images demonstrates working in insomnia.
 1. GET request for Products.
-![Website](./assets/images/Screenshot1.png)
+![Website](./assets/images/Screenshot16_newproductget.png)
 
 2. GET by id request for Products. 
-![Website](./assets/images/Screenshot5_product_id.png)
+![Website](./assets/images/Screenshot17_newproductget-by.png)
 
 3. POST command for Products.
-![Website](./assets/images/Screenshot10_product_post.png)
+![Website](./assets/images/Screenshot18_newproductpost1.png)
 
 4. PUT command for Products.
-![Website](./assets/images/Screenshot15_product_put.png)
+![Website](./assets/images/Screenshot19_newproductput.png)
 
 5. DELETE command for Products.
-![Website](./assets/images/Screenshot11_product_delete.png)
+![Website](./assets/images/Screenshot20_newproductdelete.png)
 
 6. GET command for Categories.
 ![Website](./assets/images/Screenshot2.png)
